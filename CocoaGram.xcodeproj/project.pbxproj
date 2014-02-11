@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7918A0418A9D6F500E5E170 /* MCImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7918A0318A9D6F500E5E170 /* MCImagePickerViewController.m */; };
+		A7918A0718A9DC6900E5E170 /* MCEditImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7918A0618A9DC6900E5E170 /* MCEditImageViewController.m */; };
 		A795640A18A9D53C0057120A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A795640918A9D53C0057120A /* Foundation.framework */; };
 		A795640C18A9D53C0057120A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A795640B18A9D53C0057120A /* CoreGraphics.framework */; };
 		A795640E18A9D53C0057120A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A795640D18A9D53C0057120A /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7918A0218A9D6F500E5E170 /* MCImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCImagePickerViewController.h; sourceTree = "<group>"; };
+		A7918A0318A9D6F500E5E170 /* MCImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCImagePickerViewController.m; sourceTree = "<group>"; };
+		A7918A0518A9DC6900E5E170 /* MCEditImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEditImageViewController.h; sourceTree = "<group>"; };
+		A7918A0618A9DC6900E5E170 /* MCEditImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEditImageViewController.m; sourceTree = "<group>"; };
 		A795640618A9D53C0057120A /* CocoaGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A795640918A9D53C0057120A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A795640B18A9D53C0057120A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +87,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7918A0118A9D6D200E5E170 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7918A0218A9D6F500E5E170 /* MCImagePickerViewController.h */,
+				A7918A0318A9D6F500E5E170 /* MCImagePickerViewController.m */,
+				A7918A0518A9DC6900E5E170 /* MCEditImageViewController.h */,
+				A7918A0618A9DC6900E5E170 /* MCEditImageViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		A79563FD18A9D53C0057120A = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +131,7 @@
 		A795640F18A9D53C0057120A /* CocoaGram */ = {
 			isa = PBXGroup;
 			children = (
+				A7918A0118A9D6D200E5E170 /* Controllers */,
 				A795641818A9D53C0057120A /* MCAppDelegate.h */,
 				A795641918A9D53C0057120A /* MCAppDelegate.m */,
 				A795641B18A9D53C0057120A /* Main_iPhone.storyboard */,
@@ -254,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7918A0418A9D6F500E5E170 /* MCImagePickerViewController.m in Sources */,
+				A7918A0718A9DC6900E5E170 /* MCEditImageViewController.m in Sources */,
 				A795641A18A9D53C0057120A /* MCAppDelegate.m in Sources */,
 				A795642318A9D53C0057120A /* MCViewController.m in Sources */,
 				A795641618A9D53C0057120A /* main.m in Sources */,
@@ -475,6 +495,7 @@
 				A795643D18A9D53C0057120A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A795643E18A9D53C0057120A /* Build configuration list for PBXNativeTarget "CocoaGramTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +504,7 @@
 				A795644018A9D53C0057120A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
